@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "megataxiapp",
+    "slug": "megataxiapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "owner": "subhajit_paul",
+    "icon": "./assets/AppIcons/appstore.png",
+    "splash": {
+      "image": "./assets/AppIcons/playstore.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f59e0b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.megataxiapp",
+      "versionCode": 1,
+      "googleServicesFile": "./android/app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppIcons/playstore.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "org.reactjs.native.example.megataxiapp",
+      "googleServicesFile":"./ios/megataxiapp/GoogleService-Info.plist",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "megataxiapp"
+}
